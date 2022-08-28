@@ -1,0 +1,387 @@
+.header{
+    background-color:peru;
+    text-align: left;
+    color:rgb(83, 31, 7);
+    height:20vh;
+    border: solid saddlebrown 1px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.Formdiv{
+    min-height: 60vh;
+    right: 0;
+    left: 0;
+    top: 10%;
+    bottom: 80%;
+}
+
+.form{
+    align-items: center;
+}
+
+.FormName{
+    font-size: 6vh;
+    color:sienna;
+    font-family: cursive ;
+}
+
+label{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:saddlebrown;
+}
+
+#Input {
+    height: 3vh;
+    position:relative;
+    border: solid 1px black;
+    font-size: 2vh;
+    color:wheat;
+    background-color: chocolate;
+}
+
+#InputD{
+    background-color:bisque;
+    color: bisque;
+    border: bisque;
+    width: 20vh;
+    text-align: center;
+}
+
+#submit{
+    background-color: rgb(182, 113, 53);
+    border-radius: 4px;
+    box-shadow: 0px 4px 0px lightgray;
+    border: 1px solid white;
+    color: aliceblue;
+    font-family: monospace;
+    width: 7vh;
+    height: 3vh;
+    font-size: 1.9vh;
+}
+
+#submit:hover{
+    transition: 0.3s;
+    background-color: rgb(237, 132, 40);
+}
+
+#submit:active{
+    background-color: rgb(237, 132, 40);
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+}
+
+#submitD{
+    background-color:bisque;
+    color: bisque;
+    border: bisque;
+}
+
+#PassSelection{
+    display: flex;
+    justify-content: space-around;
+}
+
+#plan1d{
+    background-color:bisque;
+    color: bisque;
+    border: bisque;
+    
+}
+
+#plan2d{
+    background-color:bisque;
+    color: bisque;
+    border: bisque;
+    
+}
+
+#plan3d{
+    background-color:bisque;
+    color: bisque;
+    border: bisque;
+    
+}
+
+#Plan1a{
+    height:20vh;
+    width: 52vh;
+    box-shadow: 0px 4px 0px lightgray;
+    border-radius: 24px;
+    border: teal solid;
+    background-color:darksalmon;
+    color: teal;
+    font-size: large;
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+#Plan1a:hover{
+    transition: 0.5s;
+    background-color: salmon;
+    color: rgb(0, 95, 95);
+    font-size: 5vh;
+    border:rgb(0, 95, 95) solid;
+}
+
+#Plan1a:active{
+    background-color: #F48D79;
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+    transition: 0.3s;
+}
+
+#Plan2a{
+    height:20vh;
+    width: 52vh;
+    border: black 1px;
+    box-shadow: 0px 4px 0px lightgray;
+    border-radius: 24px;
+    border: teal solid;
+    background-color:darksalmon;
+    color: teal;
+    font-size: large;
+    font-family: monospace;
+    transition: 0.4s;
+}
+
+#Plan2a:hover{
+    transition: 0.6s;
+    background-color: salmon;
+    color: rgb(0, 95, 95);
+    font-size: 5vh;
+    border:rgb(0, 95, 95) solid;
+}
+
+#Plan2a:active{
+    background-color: #F48D79;
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+    transition: 0.3s;
+}
+
+#Plan3a{
+    height:20vh;
+    width: 52vh;
+    border: black 1px;
+    box-shadow: 0px 4px 0px lightgray;
+    border-radius: 24px;
+    border: teal solid;
+    background-color:darksalmon;
+    color: teal;
+    font-size:large;
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+#Plan3a:hover{
+    transition: 0.5s;
+    background-color: salmon;
+    color: rgb(0, 95, 95);
+    font-size: 5vh;
+    border:rgb(0, 95, 95) solid;
+}
+
+#Plan3a:active{
+    background-color: #F48D79;
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+    transition: 0.3s;
+}
+
+#PassSubmitD{
+    background-color:bisque;
+    color: bisque;
+    border: bisque;
+}
+
+#PassSubmitA{
+    float: right;
+    margin-right: 9vh;
+    border-radius: 4px;
+    background-color: rgb(182, 113, 53);
+    box-shadow: 0px 4px 0px lightgray;
+    border: 1px solid white;
+    color: aliceblue;
+    font-family: monospace;
+    width: auto;
+    height: auto;
+    font-size: 1.9vh;
+    position: relative;
+    top: 2vh;
+}
+
+#PassSubmitA:hover{
+    transition: 0.3s;
+    background-color: rgb(237, 132, 40);
+}
+
+#PassSubmitA:active{
+    background-color: rgb(237, 132, 40);
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+}
+
+#textbox{
+    float: left;
+    text-align: start;
+    color: #004aa3;
+    font-size: 2.5vh;
+    font-family: monospace;
+}
+
+.footer{
+    height: 17vh;
+    border: solid chocolate;
+    color: chocolate;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 99.6% ;
+    background-color:antiquewhite ;
+}
+
+
+#div2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Side{
+    display: inline-block;
+}
+
+#Word1{
+    margin-left: 20%;
+    color:saddlebrown;
+}
+
+#Word2{
+    color: saddlebrown;
+}
+
+#Show1{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show2{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show3{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show4{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show5{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show6{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show7{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show8{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show9{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+#Show10{
+    background-color: bisque;
+    border: 1px;
+    font-size: large;
+    font-family: monospace;
+    color: cadetblue;
+}
+
+#Another{
+    border-radius: 4px;
+    background-color:darksalmon ;
+    color:teal ;
+    font-size: medium;
+    font-family: monospace;
+    border: solid teal;
+    box-shadow: 0px 4px 0px lightgrey;
+}
+
+#Another:hover{
+    transition: 0.6s;
+    background-color: salmon;
+    color: rgb(0, 95, 95);
+    border:rgb(0, 95, 95) solid;
+}
+
+#Another:active{
+    background-color: #F48D79;
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+    transition: 0.3s;
+}
+
+#Print{
+    border-radius: 4px;
+    background-color:darksalmon ;
+    color:teal ;
+    font-size: medium;
+    font-family: monospace;
+    border: solid teal;
+    box-shadow: 0px 4px 0px lightgrey;
+}
+
+#Print:hover{
+    transition: 0.6s;
+    background-color: salmon;
+    color: rgb(0, 95, 95);
+    border:rgb(0, 95, 95) solid;
+}
+
+#Print:active{
+    background-color: #F48D79;
+    box-shadow: 0px 3px 0px rgb(88, 86, 86);
+    transform: translateY(2px) ;
+    transition: 0.3s;
+}
+
+#SliderValue{
+    color: saddlebrown;
+}
